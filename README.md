@@ -1,6 +1,6 @@
 # Ansible Role: ClamAV
 
-[![CI](https://github.com/shaneholloman-org/ansible-role-clamav/actions/workflows/ci.yml/badge.svg)](https://github.com/shaneholloman-org/ansible-role-clamav/actions/workflows/ci.yml)
+[![CI](https://github.com/shaneholloman/ansible-role-clamav/actions/workflows/ci.yml/badge.svg)](https://github.com/shaneholloman/ansible-role-clamav/actions/workflows/ci.yml)
 
 Installs ClamAV on RedHat/CentOS and Debian/Ubuntu Linux servers.
 
@@ -69,5 +69,3 @@ MIT / BSD
 ## Author Information
 
 This role was created in 2023
-
-
