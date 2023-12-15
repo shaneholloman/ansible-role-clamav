@@ -1,6 +1,6 @@
 ---
 name: CI
-on:
+'on':
   workflow_dispatch:
   pull_request:
   push:
@@ -42,8 +42,9 @@ jobs:
     strategy:
       matrix:
         distro:
-          - rockylinux8
-          - ubuntu2004
+          - rockylinux9
+          - ubuntu2204
+          - debian12
 
     steps:
       - name: Check out the codebase.
