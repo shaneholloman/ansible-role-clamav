@@ -1,13 +1,12 @@
 ---
-dependencies: []
-
 galaxy_info:
   role_name: clamav
   author: shaneholloman
   description: ClamAV installation and configuration.
   company: "shaneholloman"
-  license: "license (BSD, MIT)"
-  min_ansible_version: "2.10"
+  license: "license (Unlicense)"
+  min_ansible_version: "2.12"
+
   platforms:
     - name: Ubuntu
       versions:
@@ -18,6 +17,7 @@ galaxy_info:
       versions:
         - jessie
         - stretch
+
   galaxy_tags:
     - networking
     - cloud
@@ -25,3 +25,5 @@ galaxy_info:
     - antivirus
     - antimalware
     - scan
+
+dependencies: []
